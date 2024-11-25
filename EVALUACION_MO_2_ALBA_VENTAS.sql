@@ -8,6 +8,9 @@ USE sakila;
  FROM film;
  
  /* EJERCICIO_2. Muestra los nombres de todas las películas que tengan una clasificación de "PG-13".*/
+  -- Tabla: film
+  -- SELECT: title
+  -- Condición: rating = 'PG-13'
 
 SELECT 
 	title
@@ -18,8 +21,7 @@ WHERE rating = "PG-13";
  
 -- Tabla: film 
 -- Select: columnas empleadas title y description.
--- Condicion = "amazing"
--- Empleamos %amazing% con operador LIKE para buscar en la columna description esta cadena texto.
+-- Condicion = "%amazing% con operador LIKE.
 
 SELECT
 	title,
@@ -28,28 +30,30 @@ FROM film
 WHERE `description` LIKE '%amazing%';
 
 /* EJERCICIO_4. Encuentra el título de todas las películas que tengan una duración mayor a 120 minutos.*/ 
--- Tabla:film
--- Select: columnas title y length
+
+-- Tabla:film.
+-- SELECT:title.
 -- Condicion: length > 120m
 
 SELECT
-	title,
-	length
+	title
 FROM film
 WHERE length > 120
 ORDER BY length;
 
 /* EJERCICIO_5. Recupera los nombres de todos los actores.*/
--- Tabla: actor
--- Select: Columna first_name y last_name
 
-SELECT CONCAT(first_name, ' ', last_name)
+-- Tabla: actor
+-- SELECT:first_name y last_name
+
+SELECT 
+	CONCAT(first_name, ' ', last_name) AS NombreYApellidos
 FROM actor;
 
 /* EJERCICIO_6. Encuentra el nombre y apellido de los actores que tengan "Gibson" en su apellido.*/
 
 -- Tabla: actor
--- SELECT: columnas son first_name y last_name
+-- SELECT: first_name y last_name
 -- Condición: apellido ="Gibson"
 
 SELECT
@@ -59,6 +63,7 @@ FROM actor AS a
 WHERE a.last_name LIKE "%Gibson%";
 
 /*EJERCICIO_7.Encuentra los nombres de los actores que tengan un actor_id entre 10 y 20.*/
+
 -- Tabla: actor
 -- SELECT: firs_name y actor_id
 -- Condicion: actor_id BETWEEN 10 y 20.
