@@ -8,10 +8,11 @@ Este repositorio contiene ejercicios SQL para mejorar nuestras habilidades en ba
 DESCRIPCION
 
 La base de datos empleada se denomina "SAKILA" que simula una tienda para alquiler de películas. Esta BBDD esta integrada por un conjunto de tablas que modelan diferentes aspectos de la tienda  como los clientes, películas, alquileres, empleados,categoría entre otras. En el repositorio, además del ejercicio propiamente dicho, hemos incluido el diagrama relcional de las tablas, explicación detallada del contenido de cada una de las tabla y el enunciado de los ejercicios.
-facilitados por la proferosa.Una vez realizados los ejercicios clonamos el repositorio repositorio origina en nuesstos ordenador para configurar el entorno local de trabajo y empezar con las modificaciones correspondientes.
+facilitados por la proferosa.
+Una vez realizados los ejercicios hemos creado un repositorio en GITHUB  p empezar con las modificaciones correspondientes.
 
 REQUISITO PREVIOS 
-
+- Crear un repositorio en GITHUB y clonarlo en nuestro ordenador para trabajar desde este.
 - Tener instalado en el ordenador MySQL Workbench.
 
  BASE DE DATOS 
@@ -25,6 +26,12 @@ REQUISITO PREVIOS
           
           USE sakila;
  
+PROCEDIMIENTOS SUBIR ARCHIVOS A GITHUB
 
+Para subir los archivos a GITHUB hemos utilizado los siguientes comandos:
+
+- git add *
+- git commit -m "version_n"
+- git push origin main
 
 
