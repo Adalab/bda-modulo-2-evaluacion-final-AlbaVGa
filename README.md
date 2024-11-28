@@ -8,21 +8,23 @@ Este repositorio contiene ejercicios SQL para mejorar nuestras habilidades en ba
 DESCRIPCION
 
 La base de datos empleada se denomina "SAKILA" que simula una tienda para alquiler de películas. Esta BBDD esta integrada por un conjunto de tablas que modelan diferentes aspectos de la tienda  como los clientes, películas, alquileres, empleados,categoría entre otras. En el repositorio, además del ejercicio propiamente dicho, hemos incluido el diagrama relcional de las tablas, explicación detallada del contenido de cada una de las tabla y el enunciado de los ejercicios.
-facilitados por la proferosa.
+facilitados por la proferosa.Una vez realizados los ejercicios clonamos el repositorio repositorio origina en nuesstos ordenador para configurar el entorno local de trabajo y empezar con las modificaciones correspondientes.
 
-REQUISITO PREVIOS INSTALACION
+REQUISITO PREVIOS 
 
 - Tener instalado en el ordenador MySQL Workbench.
 
-INSTALACION BASE DE DATOS
+ BASE DE DATOS 
 
  1º Descargar la base de datos SAKILA.
 
- 2º Crear la base de datos.
+ 2º Crear el esquema de la base de datos.
  
-           CREATE DATABASE sakila;       
+           CREATE SCHEMA sakila;       
 3º Ejecutar la base de datos.
           
           USE sakila;
  
+
+
 
