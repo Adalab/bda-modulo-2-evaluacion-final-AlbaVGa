@@ -47,7 +47,7 @@ ORDER BY length;
 -- SELECT:first_name y last_name
 
 SELECT 
-	CONCAT(first_name, ' ', last_name) AS NombreYApellidos
+	first_name AS Nombre 
 FROM actor;
 
 /* EJERCICIO_6. Encuentra el nombre y apellido de los actores que tengan "Gibson" en su apellido.*/
@@ -57,8 +57,7 @@ FROM actor;
 -- Condición: apellido ="Gibson"
 
 SELECT
-	first_name AS Nombre,
-	last_name AS Apellido
+	CONCAT(first_name, ' ', last_name) AS NombreYApellidos
 FROM actor AS a
 WHERE a.last_name LIKE "%Gibson%";
 
