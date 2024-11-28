@@ -26,7 +26,7 @@ REQUISITO PREVIOS
           
           USE sakila;
  
-PROCEDIMIENTOS SUBIR ARCHIVOS A GITHUB
+PROCEDIMIENTO PARA SUBIR ARCHIVOS A GITHUB
 
 Para subir los archivos a GITHUB hemos utilizado los siguientes comandos:
 
@@ -35,3 +35,5 @@ Para subir los archivos a GITHUB hemos utilizado los siguientes comandos:
 - git push origin main
 
 
+
+AUTORA: Alba V Gallego
